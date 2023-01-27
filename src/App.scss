@@ -1,0 +1,23 @@
+@import "../sass/mixins";
+@import "../sass/colors";
+
+.App {
+  height: 100vh;
+  @include flex-center(column);
+  padding: 40px;
+  background-color: $background-color;
+}
+
+.card {
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+
+  @include flex-center(column);
+  justify-content: flex-start;
+
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+  border-radius: 10px;
+}
