@@ -1,0 +1,32 @@
+@import "../../../sass/mixins";
+@import "../../../sass/colors";
+
+.container-radio {
+  @include flex-center(column);
+  align-items: flex-start;
+  width: 100%;
+  gap: 5px;
+
+  label {
+    font-size: 1rem;
+    margin-left: 3px;
+    @include media-screen-mobile() {
+      margin-left: 0;
+    }
+  }
+
+  .radio-group {
+    @include flex-center(row);
+    gap: 25px;
+    @include media-screen-mobile() {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+  }
+
+  .radio-group-item {
+    @include flex-center(row);
+    gap: 5px;
+  }
+}
