@@ -1,0 +1,31 @@
+@import "../../../sass/mixins";
+@import "../../../sass/colors";
+
+.container-input {
+  @include flex-center(column);
+  align-items: flex-start;
+  width: 100%;
+  gap: 5px;
+
+  label {
+    font-size: 1rem;
+    margin-left: 3px;
+  }
+
+  input {
+    border: 1px solid #ccc;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+  }
+
+  input:focus {
+    outline: none;
+    border: 2px solid $button-primary-color-indigo;
+  }
+
+  .error {
+    border: 2px solid $button-primary-color-red;
+  }
+}
