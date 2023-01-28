@@ -3,8 +3,11 @@
 .container-header {
   @include flex-center(column);
   align-items: flex-start;
-  width: 100%;
   margin-bottom: 20px;
+  width: 400px;
+  @include media-screen-mobile() {
+    width: 100%;
+  }
 
   .header-primary {
     font-size: 1.5rem;
