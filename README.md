@@ -1,6 +1,6 @@
 <div align="right">
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e3c52228-d2d0-4ecd-a86e-d5663fc30ca7/deploy-status)](LINK DEPLOY DO NETLIFY)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e3c52228-d2d0-4ecd-a86e-d5663fc30ca7/deploy-status)](https://app.netlify.com/sites/luxury-faun-0dfe38/deploys)
 
 </div>
 
@@ -70,7 +70,7 @@ do formulário e zerar a barra de progresso novamente.
 </p>
 <br/>
 <p style="font-size: 18px;" align="center">
-    <a href="">O deploy foi efetuado no Netlify e você pode acessa-lo clicando aqui 🖥️</a>
+    <a href="https://luxury-faun-0dfe38.netlify.app/">O deploy foi efetuado no Netlify e você pode acessa-lo clicando aqui 🖥️</a>
 </p>
 
 ## :memo: Licença
