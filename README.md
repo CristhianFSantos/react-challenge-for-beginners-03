@@ -66,7 +66,7 @@ do formulário e zerar a barra de progresso novamente.
 </p>
 
 <p align="center">
-    <img alt="App" style="height: 415px; border: 2px solid black" heigth src="" >
+    <img alt="App" style="height: 415px; border: 2px solid black" heigth src="./app.png" >
 </p>
 <br/>
 <p style="font-size: 18px;" align="center">
