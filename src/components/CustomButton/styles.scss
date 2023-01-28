@@ -19,4 +19,9 @@
   &:active {
     background-color: $button-primary-color-indigo;
   }
+
+  &:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
 }
